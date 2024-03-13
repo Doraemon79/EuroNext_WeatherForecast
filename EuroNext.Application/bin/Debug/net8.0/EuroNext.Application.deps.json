@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EuroNext.Application/1.0.0": {
+        "dependencies": {
+          "EuroNext.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EuroNext.Application.dll": {}
+        }
+      },
+      "EuroNext.Domain/1.0.0": {
+        "runtime": {
+          "EuroNext.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EuroNext.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EuroNext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

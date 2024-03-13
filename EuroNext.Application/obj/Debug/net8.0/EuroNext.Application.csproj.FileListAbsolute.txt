@@ -1,0 +1,15 @@
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.csproj.AssemblyReference.cache
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.AssemblyInfoInputs.cache
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.AssemblyInfo.cs
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.csproj.CoreCompileInputs.cache
+C:\Repos\Euronext\EuroNext.Application\bin\Debug\net8.0\EuroNext.Application.deps.json
+C:\Repos\Euronext\EuroNext.Application\bin\Debug\net8.0\EuroNext.Application.dll
+C:\Repos\Euronext\EuroNext.Application\bin\Debug\net8.0\EuroNext.Application.pdb
+C:\Repos\Euronext\EuroNext.Application\bin\Debug\net8.0\EuroNext.Domain.dll
+C:\Repos\Euronext\EuroNext.Application\bin\Debug\net8.0\EuroNext.Domain.pdb
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.csproj.CopyComplete
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.dll
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\refint\EuroNext.Application.dll
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\EuroNext.Application.pdb
+C:\Repos\Euronext\EuroNext.Application\obj\Debug\net8.0\ref\EuroNext.Application.dll

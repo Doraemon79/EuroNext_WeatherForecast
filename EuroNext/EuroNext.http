@@ -1,0 +1,6 @@
+@EuroNext_HostAddress = http://localhost:5137
+
+GET {{EuroNext_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

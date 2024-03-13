@@ -1,0 +1,11 @@
+C:\Repos\Euronext\Euronext.Domain\bin\Debug\net8.0\Euronext.Domain.deps.json
+C:\Repos\Euronext\Euronext.Domain\bin\Debug\net8.0\Euronext.Domain.dll
+C:\Repos\Euronext\Euronext.Domain\bin\Debug\net8.0\Euronext.Domain.pdb
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.AssemblyInfoInputs.cache
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.AssemblyInfo.cs
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.dll
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\refint\Euronext.Domain.dll
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.pdb
+C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\ref\Euronext.Domain.dll

@@ -1,0 +1,17 @@
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.csproj.AssemblyReference.cache
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.AssemblyInfoInputs.cache
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.AssemblyInfo.cs
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\EuroNext.Infrastructure.deps.json
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\EuroNext.Infrastructure.runtimeconfig.json
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\EuroNext.Infrastructure.dll
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\EuroNext.Infrastructure.pdb
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.dll
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\refint\EuroNext.Infrastructure.dll
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.pdb
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.genruntimeconfig.cache
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\ref\EuroNext.Infrastructure.dll
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\Euronext.Domain.dll
+C:\Repos\Euronext\EuroNext.Infrastructure\bin\Debug\net8.0\Euronext.Domain.pdb
+C:\Repos\Euronext\EuroNext.Infrastructure\obj\Debug\net8.0\EuroNext.Infrastructure.csproj.CopyComplete
