@@ -1,6 +1,10 @@
 using Euronext.Domain.Entities;
 using EuroNext.Application.Services;
+using EuroNext.Validators;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using static EuroNext.Validators.RequestValidator;
 
 namespace EuroNext.Controllers
 {
@@ -10,8 +14,9 @@ namespace EuroNext.Controllers
     {
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly IEuronextService _euroNextService;
+     
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IEuronextService euroNextService)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IEuronextService euroNextService ) 
         {
             _euroNextService = euroNextService;
             _logger = logger;
@@ -20,6 +25,7 @@ namespace EuroNext.Controllers
         [HttpGet("GetWeatherForecast")]
         public async Task<ActionResult<IEnumerable<WeatherForecastDisplay>>> GetAll()
         {
+         
             _logger.LogInformation("GetAll started");
             var forecasts = _euroNextService.GetWeekAsync(DateOnly.FromDateTime(DateTime.Now));
             return Ok(forecasts.Result);
@@ -31,8 +37,19 @@ namespace EuroNext.Controllers
         public async Task<ActionResult<WeatherForecastDisplay>> GetDetailsByDate( DateOnly date)
         {
             _logger.LogInformation("GetDetailsByDistrict started");
-            var forecast = _euroNextService.GetByDateAsync(date);
-            return Ok(forecast.Result);
+            DateValidator validator = new DateValidator();
+            var validationResult = validator.Validate(date);
+            if (validationResult.IsValid )
+            {
+                var forecast = _euroNextService.GetByDateAsync(date);
+                return Ok(forecast.Result);
+            }
+            else
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
+
         }
 
         /// <summary>
@@ -78,18 +95,6 @@ namespace EuroNext.Controllers
 
             return NoContent();
         }
-
-
-        //[HttpGet(Name = "GetWeatherForecast")]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-        //        Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-        //        TemperatureC = Random.Shared.Next(-20, 55)
-        //    })
-        //    .ToArray();
-        //}
 
     }
 }

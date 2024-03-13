@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IYo7/qV4UmSXOr69vCCUzK9IBY4B1XenfSniZCymLoLewZf0hCgie9/H/zhlGPTjZnVd2sklJMfet3j+nltalg==",
+  "dgSpecHash": "obau3xyLBnZUlyCPes0/5IR5fFogyQH6jyOiQUXGuiGnvaLCiERqEjZoXbVsbf+FZmh12uP4Kx/A7vnPit3NqQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
+  "projectFilePath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ignle\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -2,6 +2,7 @@ using Euronext.Domain.Repository;
 using EuroNext.Application.Services;
 using EuroNext.Infrastructure;
 using EuroNext.Infrastructure.Repositories;
+using EuroNext.Validators;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbContext")));
 
+builder.Services.AddScoped<RequestValidator>();
 builder.Services.AddTransient<IWeatherForecastRepository, WeatherForecastRepository>();
 builder.Services.AddTransient<IEuronextService, EuronextService>();
 // Add services to the container.

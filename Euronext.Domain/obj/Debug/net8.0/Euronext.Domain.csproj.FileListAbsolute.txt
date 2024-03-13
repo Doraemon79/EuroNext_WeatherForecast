@@ -9,3 +9,15 @@ C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.dll
 C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\refint\Euronext.Domain.dll
 C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\Euronext.Domain.pdb
 C:\Repos\Euronext\Euronext.Domain\obj\Debug\net8.0\ref\Euronext.Domain.dll
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\bin\Debug\net8.0\EuroNext.Domain.deps.json
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\bin\Debug\net8.0\EuroNext.Domain.dll
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\bin\Debug\net8.0\EuroNext.Domain.pdb
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.AssemblyInfoInputs.cache
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.AssemblyInfo.cs
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.sourcelink.json
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.dll
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\refint\EuroNext.Domain.dll
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\EuroNext.Domain.pdb
+C:\Repos\EuroNext_WeatherForecast\Euronext.Domain\obj\Debug\net8.0\ref\EuroNext.Domain.dll

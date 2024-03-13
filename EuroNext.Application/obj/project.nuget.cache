@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YoLG4VX8UbuG2ZRgLzCcQ5BDVAotdo8KEUlHNcJpHvI7sSqStk0tqvqArbRQHz3KHFo9Se806Y40VFLEEzIJnA==",
+  "dgSpecHash": "dl6Alth3aE+YiqM2hISPVcqeoqYqMYKgSkOs0l3WkpGJYCKZCmuLrIKFZdjPf7MitFXKYwX/7B9VmAYeJ5ZMoA==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj",
+  "projectFilePath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

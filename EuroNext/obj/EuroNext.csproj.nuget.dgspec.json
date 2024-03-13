@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\Euronext\\EuroNext\\EuroNext.csproj": {}
+    "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\EuroNext.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj": {
+    "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj",
+        "projectUniqueName": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj",
         "projectName": "EuroNext.Application",
-        "projectPath": "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj",
+        "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj",
         "packagesPath": "C:\\Users\\ignle\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Euronext\\EuroNext.Application\\obj\\",
+        "outputPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj": {
-                "projectPath": "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj"
+              "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj": {
+                "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj": {
+    "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj",
         "projectName": "EuroNext.Domain",
-        "projectPath": "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj",
+        "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj",
         "packagesPath": "C:\\Users\\ignle\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Euronext\\Euronext.Domain\\obj\\",
+        "outputPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj": {
+    "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
         "projectName": "EuroNext.Infrastructure",
-        "projectPath": "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
+        "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ignle\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\obj\\",
+        "outputPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +157,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj": {
-                "projectPath": "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj"
+              "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj": {
+                "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\Repos\\Euronext\\EuroNext\\EuroNext.csproj": {
+    "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\EuroNext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Euronext\\EuroNext\\EuroNext.csproj",
+        "projectUniqueName": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\EuroNext.csproj",
         "projectName": "EuroNext",
-        "projectPath": "C:\\Repos\\Euronext\\EuroNext\\EuroNext.csproj",
+        "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\EuroNext.csproj",
         "packagesPath": "C:\\Users\\ignle\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Euronext\\EuroNext\\obj\\",
+        "outputPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,14 +241,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj": {
-                "projectPath": "C:\\Repos\\Euronext\\EuroNext.Application\\EuroNext.Application.csproj"
+              "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj": {
+                "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj"
               },
-              "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj": {
-                "projectPath": "C:\\Repos\\Euronext\\Euronext.Domain\\EuroNext.Domain.csproj"
+              "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj": {
+                "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj"
               },
-              "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj": {
-                "projectPath": "C:\\Repos\\Euronext\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj"
+              "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj"
               }
             }
           }
@@ -263,9 +263,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FluentValidation.AspNetCore": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[11.3.0, )"
+              "version": "[11.9.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

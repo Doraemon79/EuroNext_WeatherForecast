@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\Euronext\\Euronext.Domain\\Euronext.Domain.csproj",
-      "projectName": "Euronext.Domain",
-      "projectPath": "C:\\Repos\\Euronext\\Euronext.Domain\\Euronext.Domain.csproj",
+      "projectUniqueName": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj",
+      "projectName": "EuroNext.Domain",
+      "projectPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\EuroNext.Domain.csproj",
       "packagesPath": "C:\\Users\\ignle\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Euronext\\Euronext.Domain\\obj\\",
+      "outputPath": "C:\\Repos\\EuroNext_WeatherForecast\\Euronext.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
