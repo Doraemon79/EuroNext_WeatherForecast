@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EuroNext.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05b5893b12b17890247ff3e5cbe667445d5d6882")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bde21abd70a67a3363b8ee243b7875e511056b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EuroNext.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EuroNext.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

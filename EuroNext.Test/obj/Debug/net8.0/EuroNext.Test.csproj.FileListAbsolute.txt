@@ -334,3 +334,4 @@ C:\Repos\EuroNext_WeatherForecast\EuroNext.Test\obj\Debug\net8.0\refint\EuroNext
 C:\Repos\EuroNext_WeatherForecast\EuroNext.Test\obj\Debug\net8.0\EuroNext.Test.pdb
 C:\Repos\EuroNext_WeatherForecast\EuroNext.Test\obj\Debug\net8.0\EuroNext.Test.genruntimeconfig.cache
 C:\Repos\EuroNext_WeatherForecast\EuroNext.Test\obj\Debug\net8.0\ref\EuroNext.Test.dll
+C:\Repos\EuroNext_WeatherForecast\EuroNext.Test\bin\Debug\net8.0\launchSettings.json

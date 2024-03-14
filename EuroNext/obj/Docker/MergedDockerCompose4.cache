@@ -1,0 +1,12 @@
+name: dockercompose597341878450425225
+services:
+  euronext.test:
+    build:
+      context: C:\Repos\EuroNext_WeatherForecast\EuroNext
+      dockerfile: ..\EuroNext\Dockerfile
+    image: euronexttest
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose597341878450425225_default

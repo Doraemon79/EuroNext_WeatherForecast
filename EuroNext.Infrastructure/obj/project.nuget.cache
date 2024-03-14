@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "obau3xyLBnZUlyCPes0/5IR5fFogyQH6jyOiQUXGuiGnvaLCiERqEjZoXbVsbf+FZmh12uP4Kx/A7vnPit3NqQ==",
+  "dgSpecHash": "NrS7RWg2xLuCt3tUbIA//GTODWD34pl6PyXckcCuaZd7jrwSL+VOJeG1WbK9mhMqpMBs15EN07oew6ZWu8s9zw==",
   "success": true,
   "projectFilePath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Infrastructure\\EuroNext.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\ignle\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

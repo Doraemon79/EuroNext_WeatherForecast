@@ -982,10 +982,11 @@
           "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
+          "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -3021,7 +3022,7 @@
           "EuroNext.Infrastructure": "1.0.0",
           "FluentValidation": "11.9.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
           "Serilog.AspNetCore": "8.0.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -3039,7 +3040,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "EuroNext.Domain": "1.0.0"
+          "EuroNext.Domain": "1.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6"
         },
         "compile": {
           "bin/placeholder/EuroNext.Application.dll": {}
@@ -3051,6 +3053,9 @@
       "EuroNext.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6"
+        },
         "compile": {
           "bin/placeholder/EuroNext.Domain.dll": {}
         },
@@ -3065,7 +3070,8 @@
           "EuroNext.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6"
         },
         "compile": {
           "bin/placeholder/EuroNext.Infrastructure.dll": {}
@@ -4705,10 +4711,10 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {
-      "sha512": "Kaa1rBZdJFq5A0qgAcl6Bmk/UqLXTq9acEqxUlPEBA8oscmakLfkvuSXfG7Wa9t1/keaT85EuuDNgOo+Z9VYOQ==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {
+      "sha512": "7GOQdMzQcH7o/bPFL/I2kQEgMnq2pYZ+exhGb9nNqs624K9w2jB2zieh4sOH9+a01i/G9iTWfeUI3IGMF7SKNg==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.5",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4737,7 +4743,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -9355,6 +9361,7 @@
       "EuroNext >= 1.0.0",
       "EuroNext.Application >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.6",
       "Moq >= 4.20.70",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.4.2",
@@ -9416,6 +9423,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.6.0, )"
+          },
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "target": "Package",
+            "version": "[1.19.6, )"
           },
           "Moq": {
             "target": "Package",

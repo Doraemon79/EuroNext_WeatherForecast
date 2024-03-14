@@ -1,0 +1,77 @@
+name: dockercompose597341878450425225
+services:
+  euronext.test:
+    build:
+      context: C:\Repos\EuroNext_WeatherForecast\EuroNext
+      dockerfile: ..\EuroNext.Test\Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: EuroNext.Test
+    container_name: EuroNext.Test
+    entrypoint:
+      - cmd
+      - /c
+      - set DISABLE_PERFORMANCE_DEBUGGER=1 & C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: euronexttest:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages --additionalProbingPath c:\.nuget\fallbackpackages  "C:\app\bin\Debug\net8.0\EuroNext.Test.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    networks:
+      default: null
+    volumes:
+      - type: bind
+        source: C:\Repos\EuroNext_WeatherForecast\EuroNext.Test
+        target: C:\app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Repos\EuroNext_WeatherForecast\EuroNext
+        target: C:\src
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\ignle\onecoremsvsmon\17.8.11012.3416
+        target: C:\remote_debugger
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\win10-x64\net6.0
+        target: C:\TokenService.Proxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\win10-x64\net6.0
+        target: C:\HotReloadProxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: C:\HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\ignle\.nuget\packages\
+        target: c:\.nuget\packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+        target: c:\.nuget\fallbackpackages
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose597341878450425225_default

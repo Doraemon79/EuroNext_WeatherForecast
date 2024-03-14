@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dl6Alth3aE+YiqM2hISPVcqeoqYqMYKgSkOs0l3WkpGJYCKZCmuLrIKFZdjPf7MitFXKYwX/7B9VmAYeJ5ZMoA==",
+  "dgSpecHash": "ZXjNSdz08T9U6TKj9efXXWYX8m3ZOXzTJxIHFl6R5rI1hS/TQncLR+M6f6fBySXEG2OOHN5nYtc3K1a2UQaNHA==",
   "success": true,
   "projectFilePath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext.Application\\EuroNext.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ignle\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LOWxOSVtnLiT/Y7uAmcYqM0+NBaopFmibEvp1gJL6gKhMlfgFqmw+f92be0R/l0Iwpr9DlR1auGMnFv06SUk+w==",
+  "dgSpecHash": "XYo6Zz/bkWGTQfEr6WjV4uo9F3QbCAjBRbxzkL0IN6SrgqNNTZiDDKDVIEAdEU8sSJHSHhH8M5AfQPl71Sp/MA==",
   "success": true,
   "projectFilePath": "C:\\Repos\\EuroNext_WeatherForecast\\EuroNext\\EuroNext.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,7 @@
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "C:\\Users\\ignle\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
+    "C:\\Users\\ignle\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ignle\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
