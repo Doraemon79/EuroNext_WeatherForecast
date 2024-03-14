@@ -1,9 +1,4 @@
 ﻿using Euronext.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Euronext.Domain.Repository
 {
@@ -12,7 +7,7 @@ namespace Euronext.Domain.Repository
         Task<List<WeatherForecast>> GetWeekAsync(DateOnly date);
         Task<WeatherForecast> GetByDateAsync(DateOnly date);
         Task<WeatherForecast> CreateAsync(WeatherForecast weatherForecast);
-        Task<int> UpdateAsync(DateOnly date,WeatherForecast weatherForecast);
+        Task<int> UpdateAsync(DateOnly date, WeatherForecast weatherForecast);
         Task<int> DeleteAsync(DateOnly date);
     }
 }

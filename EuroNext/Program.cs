@@ -4,7 +4,6 @@ using EuroNext.Infrastructure;
 using EuroNext.Infrastructure.Repositories;
 using EuroNext.Validators;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>

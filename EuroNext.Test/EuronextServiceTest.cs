@@ -4,25 +4,20 @@ using EuroNext.Application.Services;
 using EuroNext.Controllers;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EuroNext.Test
 {
     public class EuronextServiceTest
     {
-        WeatherForecast forecast1 = new WeatherForecast() { Date = new DateOnly(2024, 3, 13), TemperatureC = 50};
+        WeatherForecast forecast1 = new WeatherForecast() { Date = new DateOnly(2024, 3, 13), TemperatureC = 50 };
         WeatherForecast forecast2 = new WeatherForecast() { Date = new DateOnly(2024, 3, 14), TemperatureC = 42 };
         WeatherForecast forecast3 = new WeatherForecast() { Date = new DateOnly(2024, 3, 15), TemperatureC = 27 };
-        WeatherForecast forecast4 = new WeatherForecast() { Date = new DateOnly(2024, 3, 16), TemperatureC = 20};
+        WeatherForecast forecast4 = new WeatherForecast() { Date = new DateOnly(2024, 3, 16), TemperatureC = 20 };
         WeatherForecast forecast5 = new WeatherForecast() { Date = new DateOnly(2024, 3, 17), TemperatureC = 0 };
         WeatherForecast forecast6 = new WeatherForecast() { Date = new DateOnly(2024, 3, 18), TemperatureC = -10 };
         WeatherForecast forecast7 = new WeatherForecast() { Date = new DateOnly(2024, 3, 19), TemperatureC = -30 };
-       
+
         [Fact]
         public async Task TestGetByDateReturnsRightDescription()
         {
@@ -76,7 +71,7 @@ namespace EuroNext.Test
             var result = await service.UpdateAsync(date, forecastTst);
 
             //Assert
-            Assert.Equal(1, result); 
+            Assert.Equal(1, result);
         }
 
     }

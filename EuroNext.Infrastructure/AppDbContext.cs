@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EuroNext.Infrastructure
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions) { }
 

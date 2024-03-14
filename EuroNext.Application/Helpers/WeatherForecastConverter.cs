@@ -1,11 +1,4 @@
-﻿using Euronext.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EuroNext.Application.Helpers
+﻿namespace EuroNext.Application.Helpers
 {
     public static class WeatherForecastConverter
     {

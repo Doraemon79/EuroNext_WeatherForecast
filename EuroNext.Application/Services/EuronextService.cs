@@ -51,8 +51,8 @@ namespace EuroNext.Application.Services
 
         public async Task<int> UpdateAsync(DateOnly date, WeatherForecast weatherForecast)
         {
-            var tst = await (_weatherForecastRepository.UpdateAsync(date, weatherForecast));
-            return tst;
+            var update = await (_weatherForecastRepository.UpdateAsync(date, weatherForecast));
+            return update;
         }
     }
 }
